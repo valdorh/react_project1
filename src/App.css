@@ -39,33 +39,11 @@
     "h h "
     "n c";
   min-height: 100vh;
+  grid-row-gap: 10px;
 }
-.header {
-  grid-area: h;
-  background-color: green;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.header img {
-  padding-left: 20px;
-  width: 80px;
-}
-.nav {
-  padding: 20px;
-  grid-area: n;
-  background-color: rgb(3, 156, 23);
-}
-.nav .menu-item a {
-  font-size: 20px;
-  color: #fff;
-}
-.content {
+.app-wraper-content {
   grid-area: c;
-  background-color: lightblue;
-}
-.content img {
-  width: 100%;
+  background-color: rgb(217, 233, 248);
 }
 
 @keyframes App-logo-spin {
